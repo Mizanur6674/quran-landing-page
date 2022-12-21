@@ -10,6 +10,7 @@ function BlogMap() {
       {blogData.map((item, index) => {
         return (
           <div
+            key={index}
             className={clsx(
               " flex gap-4 md:gap-7 bg-white border border-[#CCD3D2] rounded-md p-2 md:p-5",
               active === item && "border-none shadow-md"

@@ -1,5 +1,4 @@
 import React from "react";
-import Logo from "./Logo";
 
 function NavbarDesktop() {
   return (

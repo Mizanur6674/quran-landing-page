@@ -6,10 +6,12 @@ function Network() {
     <div>
       <button className=" button1 text-primary pb-5">Network</button>
       <div className=" space-y-2">
-        {networkData.map((item) => {
+        {networkData.map((item, index) => {
           return (
             <div>
-              <a className=" p2 text-light_green md:pr-12">{item.title} </a>
+              <a key={index} className=" p2 text-light_green md:pr-12">
+                {item.title}
+              </a>
             </div>
           );
         })}
