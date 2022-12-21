@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-secondery;
+}
+.H1 {
+  @apply font-bold font-manrope text-4xl md:text-[62px] leading-[46px] md:leading-[72px];
+}
+.H2 {
+  @apply font-bold font-manrope text-[26px] md:text-[42px] leading-[36px] md:leading-[52px];
+}
+.H3 {
+  @apply font-bold font-manrope text-[12px] leading-[18px] md:text-[20px] md:leading-[30px];
+}
+.H4 {
+  @apply font-semibold font-manrope text-[20px] leading-[30px];
+}
+.H5 {
+  @apply font-[500] font-manrope text-[20px] leading-[30px];
+}
+.button1 {
+  @apply font-semibold font-manrope rounded-md text-[18px] leading-[30px];
+}
+.button2 {
+  @apply font-semibold font-manrope rounded-md text-[16px] leading-[28px];
+}
+.button3 {
+  @apply font-semibold font-manrope rounded-md text-[10px] leading-4 md:text-[14px] md:leading-[24px];
+}
+.btn_yellow {
+  @apply px-3 md:px-8 py-3 rounded bg-tertiary button1;
+}
+.btn_transparent {
+  @apply px-3 md:px-8 py-3 rounded  border-2 border-b_color button1;
+}
+.btn_white {
+  @apply px-8 py-3 rounded bg-white button1;
+}
+.btn_green {
+  @apply px-7 py-2 rounded bg-primary text-white button2;
+}
+.p1 {
+  @apply font-[400] font-manrope text-sm leading-6 md:text-lg md:leading-[30px];
+}
+.p2 {
+  @apply font-[400] font-manrope text-[16px] leading-7;
+}
+.p3 {
+  @apply font-[400] font-manrope text-[10px] leading-4 md:text-sm md:leading-6;
+}
+.container {
+  @apply w-[90%] md:w-[88%] mx-auto;
+}
+.sb {
+  @apply border border-red-500;
+}
+.shape {
+  clip-path: ellipse(50% 40% at 50% 49%);
+}
+.text-clip {
+  clip-path: circle(10% at 50% 50%);
+}
