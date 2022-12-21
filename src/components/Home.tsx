@@ -5,7 +5,7 @@ import HomeFooter from "./shared/footer/HomeFooter";
 
 function Homes() {
   return (
-    <div className="bg-[url('/images/bg1.svg')] bg-no-repeat">
+    <div className="bg-[url('/images/bg1.svg')] bg-no-repeat bg-top">
       <div className=" container">
         <div className=" mx-auto  md:w-[41.875rem]">
           <h1 className=" H1 text-primary pt-16 pb-6 text-center">
