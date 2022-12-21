@@ -6,7 +6,7 @@ import MobileNavbar from "./layout/MobileNavbar";
 import NavbarDesktop from "./layout/NavbarDesktop";
 import Navbar from "./Footer";
 import EasyReciting from "./shared/EasyReciting";
-import QuranTranslation from "./shared/QuranTranslation";
+import QuranTranslation from "./QuranTranslation";
 import Reciters from "./Reciters";
 import Footer from "./Footer";
 

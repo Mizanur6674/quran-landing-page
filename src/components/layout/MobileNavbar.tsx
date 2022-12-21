@@ -7,7 +7,7 @@ function MobileNavbar() {
     <div className="  relative mt-5">
       <div className=" mx-3 flex items-center justify-between">
         <div>
-          <img src="/images/logo.svg" alt="qlogo" />
+          <img src="/images/Logo.svg" alt="qlogo" />
         </div>
         <button
           onClick={() => {

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import clsx from "clsx";
 import { FiChevronDown } from "react-icons/fi";
-import { quranTranslateData } from "../../Data/QuranTranslateData";
+import { quranTranslateData } from "../Data/QuranTranslateData";
 
 function QuranTranslation() {
   const [active, setActive] = useState(quranTranslateData[0].count);
