@@ -9,6 +9,7 @@ import EasyReciting from "./shared/EasyReciting";
 import QuranTranslation from "./QuranTranslation";
 import Reciters from "./Reciters";
 import Footer from "./Footer";
+import Homes from "./Home";
 
 function MainPage() {
   return (
@@ -19,7 +20,7 @@ function MainPage() {
       <div className=" md:hidden">
         <MobileNavbar />
       </div>
-      <Home />
+      <Homes />
       <About />
       <QuranTranslation />
       <Reciters />

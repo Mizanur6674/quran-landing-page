@@ -3,7 +3,7 @@ import { RiBookOpenFill } from "react-icons/ri";
 import { AiFillAudio } from "react-icons/ai";
 import HomeFooter from "./shared/footer/HomeFooter";
 
-function Home() {
+function Homes() {
   return (
     <div className="bg-[url('/images/bg1.svg')] bg-no-repeat">
       <div className=" container">
@@ -47,4 +47,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Homes;
