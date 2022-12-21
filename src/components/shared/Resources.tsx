@@ -8,10 +8,8 @@ function Resources() {
       <div className=" space-y-2">
         {resourcesData.map((item, index) => {
           return (
-            <div>
-              <a key={index} className=" p2 text-light_green">
-                {item.title}
-              </a>
+            <div key={index}>
+              <a className=" p2 text-light_green">{item.title}</a>
             </div>
           );
         })}

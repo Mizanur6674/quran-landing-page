@@ -20,7 +20,7 @@ function About() {
             holy quran
           </h2>
           <p className=" p2 pb-4">
-            The Quran, also romanized Qur'an or Koran, is the central religious text of Islam, believed by Muslims to be a
+            The Quran, also romanized Qur&apos;an or Koran, is the central religious text of Islam, believed by Muslims to be a
             revelation from Allah. It is organized in 30 chapters, 114 surahs which consist of 6666 verses.
           </p>
           <p className=" p2 pb-12">

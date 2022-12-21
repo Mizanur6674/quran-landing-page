@@ -7,17 +7,17 @@ export const homeFooterData = [
   {
     id: 1,
     digit: 30,
-    title: "Quran's Chapters",
+    title: "Quran&apos;s Chapters",
   },
   {
     id: 2,
     digit: 114,
-    title: "Quran's Surahs",
+    title: "Quran&apos;s Surahs",
   },
   {
     id: 3,
     digit: 6666,
-    title: "Quran's Verses",
+    title: "Quran&apos;s Verses",
   },
   {
     id: 4,

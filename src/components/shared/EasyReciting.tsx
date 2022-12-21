@@ -15,7 +15,7 @@ function EasyReciting() {
             </h1>
 
             <p className=" md:w-[35.625rem] mx-auto p2 text-light_gray">
-              The Quran, also romanized Qur'an or Koran, is the central religious text of Islam, believed by Muslims to be a
+              The Quran, also romanized Qur&apos;an or Koran, is the central religious text of Islam, believed by Muslims to be a
               revelation from Allah.
             </p>
 

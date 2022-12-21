@@ -61,7 +61,7 @@ export const popularLinksData = [
   },
   {
     id: 5,
-    title: "Al Waqi'ah",
+    title: "Al Waqi&apos;ah",
   },
   {
     id: 6,
