@@ -5,7 +5,7 @@ function NavbarDesktop() {
     <div className=" container">
       <div className=" py-10 border-b-2 border-light_green flex items-center justify-between">
         <div>
-          <img src="/images/Logo.svg" alt="qlogos" />
+          <img src="/images/Logo.svg" alt="qlogoss" />
         </div>
 
         <div className="">
